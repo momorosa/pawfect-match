@@ -1,8 +1,0 @@
-# Ignore Python venv
-env/
-venv/
-__pycache__/
-*.pyc
-
-# Ignore OS files
-.DS_Store
