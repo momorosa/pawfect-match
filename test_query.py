@@ -32,6 +32,7 @@ def query_breeds(user_text: str, top_k: int = 3):
         print(f"   {desc}\n")
         
 if __name__ == "__main__":
-    query_breeds("I'm looking for a medium-sized dog with a white coat. It should be alert, easy to train, and highly intelligent.")
-    query_breeds("I'm looking for a small, low-maintenance, hypoallergenic dog. I live in a small apartment, so I prefer a calm, cuddly breed that doesn’t need too much exercise.")
-    query_breeds("I'm an outdoorsy and active person looking for a medium to large dog that loves to run, hike, and swim. I want an adventurous, athletic companion to share outdoor activities with.")
+    query_breeds("I want a white fluffy dog with pointed ears, medium size, intelligent and family-friendly")
+    # query_breeds("I'm looking for a medium-sized dog with a white coat. It should be alert, easy to train, and highly intelligent.")
+    # query_breeds("I'm looking for a small, low-maintenance, hypoallergenic dog. I live in a small apartment, so I prefer a calm, cuddly breed that doesn’t need too much exercise.")
+    # query_breeds("I'm an outdoorsy and active person looking for a medium to large dog that loves to run, hike, and swim. I want an adventurous, athletic companion to share outdoor activities with.")
